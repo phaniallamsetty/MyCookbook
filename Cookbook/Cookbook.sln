@@ -5,6 +5,27 @@ VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cookbook.API", "Cookbook.API\Cookbook.API.csproj", "{B4501ACC-A125-45D8-8D8B-08D7B4FDB1C9}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "cookbook", "cookbook\", "{C08CAEFF-9C81-452A-9230-BBED10E1EB8C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_55330"
+		Debug.AspNetCompiler.PhysicalPath = "cookbook\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55330\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_55330"
+		Release.AspNetCompiler.PhysicalPath = "cookbook\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55330\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "55330"
+		SlnRelativePath = "cookbook\"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +36,10 @@ Global
 		{B4501ACC-A125-45D8-8D8B-08D7B4FDB1C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4501ACC-A125-45D8-8D8B-08D7B4FDB1C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4501ACC-A125-45D8-8D8B-08D7B4FDB1C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C08CAEFF-9C81-452A-9230-BBED10E1EB8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C08CAEFF-9C81-452A-9230-BBED10E1EB8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C08CAEFF-9C81-452A-9230-BBED10E1EB8C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C08CAEFF-9C81-452A-9230-BBED10E1EB8C}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
